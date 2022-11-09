@@ -2,29 +2,21 @@ AOS.init();
 
 //  Work experience cards
 
-/*
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "DevOps Engineer Trainee",
+    cardImage: "assets/images/experience-page/sap.jpg",
+    place: "SAP",
+    time: "(Jul, 2022 - present)",
+    desp: "<li>I joined a team that is part of the Technical and Backing Services department of SAP BTP.</li> <li>The Technical Services unit provides the multi-cloud foundation for SAP BTP and a layer of abstraction for all applications to run on both public clouds [AWS, Azure, GCP, AliCloud] and private cloud.</li> <li>The Backing Services team is a multi-country team spread and working in 3 different development hub locations.</li> <li>We offer managed services with state-of-the-art security, high-availability, resilience, scalability and easy consumability.</li> <li>We work mainly with cloud, resolving internal issues regarding infrastructure, automation, performance and security.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
-  },
-  {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Software Engineer Intern",
+    cardImage: "assets/images/experience-page/Celfocus.png",
+    place: "CELFOCUS",
+    time: "(Jan - Jun, 2022)",
+    desp: "<li>I joined a team that is part of the Order Management and Integration department developing a product called Celfocus Order Management which is the master orchestrator that maps, sequences and fulfills any enterprise’s application request.</li><li>I was part of the backend development, working with microservices architecture and mindsets.</li>",
   },
 ];
 
@@ -60,7 +52,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 
 // Volunteership Cards
-
+/*
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
